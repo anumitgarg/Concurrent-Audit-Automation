@@ -8,7 +8,8 @@ On an average, transaction testers have to manually review:
 
 ## Proposed Solution
 Therefore we have developed a transaction testing solution that can automate manual review by converting unstructured data in scanned “.pdf” files into structured data followed by comparison with the system generated deal listing.
-We have used state of the art machine learning algorithms and
+We have used state of the art machine learning algorithms, natural language processing techniques and designed algorithms that can automate the process of verification of documents and simultaneously creating an assessment report that summarizes the faults and anomalies encountered while verification.
+
 
 
 
