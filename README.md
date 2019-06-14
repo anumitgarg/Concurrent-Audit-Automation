@@ -11,7 +11,7 @@ Therefore we have developed a transaction testing solution that can automate man
 We have used state of the art machine learning algorithms, natural language processing techniques and designed algorithms that can automate the process of verification of documents and simultaneously creating an assessment report that summarizes the faults and anomalies encountered while verification.
 
 
-![htr](./figures/Flow_diagram.PNG)
+![Flow diagram](./figures/Flow_diagram.PNG)
 
 
 
@@ -25,11 +25,15 @@ The proposed solution has been implemented using Python 3.7.1 and the following 
 * <b>Pandas</b> is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series.
 * <b>Datetime</b> module supplies classes for manipulating dates and times in both simple and complex ways. While date and time arithmetic is supported, the focus of the implementation is on efficient attribute extraction for output formatting and manipulation.
 
-* <b></b>
+
 ## Repository Description
 The repository consists of following files folders -
 * <b>Notebooks</b>: The folder contains jupyter notebooks:
-- GUI: Graphical User Interface for automatic extraction and verification of document based on RBI guidilines. Also the conversion of unstructured data to structured format takes place which is furthered stored in excel format  
-- <b>Concurrent Audit Automation</b> This notebook contains all the functions, algorithms and implementation of prototype with a detailed description
+  - GUI: Graphical User Interface for automatic extraction and verification of document based on RBI guidilines. Also the conversion of unstructured data to structured format takes place which is furthered stored in excel format  
+  ![GUI](./figures/gui.PNG)
+  <br>
+  - Concurrent Audit Automation: This notebook contains all the functions, algorithms and implementation of prototype with a detailed description
+* <b>toolbox.py</b>: Contains all the functions and algorithms used in the prototype.
+* <b>Data</b>: Contains sample document, processed document (OCR)
 
 
