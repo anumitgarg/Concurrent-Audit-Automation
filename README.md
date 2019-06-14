@@ -1,4 +1,4 @@
-# Concurrent-Audit-Automation using Machine Learning and Natural Language Processing techniques
+# Concurrent-Audit-Automation using Machine Learning, Natural Language Processing and Algorithms
 ## Introduction to problem statement
 
 On a daily basis, foreign exchange (FX) transactions data is monitored for compliance with RBI regulations pertaining to confirmation of FX deal. This includes a number of FX deal attributes (e.g. Transaction Reference,  Counterparty Name, Deal Date, Value Date, Primary Currency, Counter Currency, Primary Currency Amount, Counter Currency Amount, etc.). 
