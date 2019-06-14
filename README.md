@@ -33,6 +33,6 @@ The repository consists of following files folders -
   ![GUI](./figures/gui.PNG)
   - Concurrent Audit Automation: This notebook contains all the functions, algorithms and implementation of prototype with a detailed description
 * <b>toolbox.py</b>: Contains all the functions and algorithms used in the prototype.
-* <b>Data</b>: Contains sample document and processed document.
+* <b>Dataset</b>: Contains sample document and processed document.
 
 
