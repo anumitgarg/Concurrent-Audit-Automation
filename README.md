@@ -18,10 +18,12 @@ We have used state of the art machine learning algorithms, natural language proc
 ## Libraries and dependencies
 The proposed solution has been implemented using Python 3.7.1 and the following dependencies - 
 * <b>Google Cloud Vision API </b> is an image analysis service that's part of Google Cloud Platform. It enables you to understand the content of images by encapsulating powerful machine learning models in an easy-to-use REST API. 
+* <b>Tkinter</b> is a Python binding to the Tk GUI toolkit. It is the standard Python interface to the Tk GUI toolkit, and is Python's de facto standard GUI. 
 * <b>Regular expressions</b> are a sequence of characters that define a search pattern. Usually such patterns are used by string searching algorithms for "find" or "find and replace" operations on strings, or for input validation.
 * <b>Python Imaging Library</b> is a free library for the Python programming language that adds support for opening, manipulating, and saving many different image file formats. 
 * <b>NumPy</b> is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
 * <b>Pandas</b> is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for manipulating numerical tables and time series.
-* <b>Tkinter</b> is a Python binding to the Tk GUI toolkit. It is the standard Python interface to the Tk GUI toolkit, and is Python's de facto standard GUI. 
+* <b>Datetime</b> module supplies classes for manipulating dates and times in both simple and complex ways. While date and time arithmetic is supported, the focus of the implementation is on efficient attribute extraction for output formatting and manipulation.
+
 
 
