@@ -8,7 +8,20 @@ On an average, transaction testers have to manually review:
 
 ## Proposed Solution
 Therefore we have developed a transaction testing solution that can automate manual review by converting unstructured data in scanned “.pdf” files into structured data followed by comparison with the system generated deal listing.
-We have used state of the art machine learning algorithms, natural language processing techniques and self developed algorithms that can automate the process of verification of documents and simultaneously creating an assessment report that summarizes the faults and anomalies encountered while verification.
+We have used state of the art machine learning algorithms, natural language processing techniques and self developed algorithms that can automate the process of verification of documents and simultaneously creating an assessment report that summarizes the faults and anomalies encountered while verification.<br>
+1.) <b>EXTRACTION OF TEXT:</b> The Optical Character Recognition (OCR) using Google’s Cloud Vision API is used to extract handwritten, printed or any other form of data from the PDFs.<br> 
+
+2.) <b>ATTRIBUTE EXTRACTION:</b> The text thus obtained is thus processed and various attributes  are extracted using important features associated with each attribute using various algorithms consisting of Natural Language Processing techniques and regular expressions.<br>
+
+3.) <b>CONVERSION OF ATTRIBUTES TO PARTICULAR FORMATS</b> (unstructured data to structured data)<br>
+
+4.) <b>SEARCH IN SYSTEM DUMP:</b>  Once the attributes are extracted from a PDF document a search is carried out in the system dump to find all the data of associated with the reference number extracted from the PDF document.<br>
+
+5.) <b>COMPARISON AND VERIFICATION:</b> Once all the data is extracted they are compared to the extracted attributes under the RBI guidelines.<br>
+
+6) <b>RESULT REPORT GENERATED:</b> A message is prompted that gives a summary report of the result of verification process
+
+
 
 
 ![Flow diagram](./figures/Flow_diagram.PNG)
