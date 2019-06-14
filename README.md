@@ -19,7 +19,7 @@ We have used state of the art machine learning algorithms, natural language proc
 
 5.) <b>COMPARISON AND VERIFICATION:</b> Once all the data is extracted they are compared to the extracted attributes under the RBI guidelines.<br>
 
-6) <b>RESULT REPORT GENERATED:</b> A message is prompted that gives a summary report of the result of verification process
+6.) <b>RESULT REPORT GENERATED:</b> A message is prompted that gives a summary report of the result of verification process
 
 
 ![Flow diagram](./figures/Flow_diagram.PNG)
