@@ -30,7 +30,6 @@ The proposed solution has been implemented using Python 3.7.1 and the following 
 The repository consists of following files folders -
 * <b>Notebooks</b>: The folder contains jupyter notebooks:
   - GUI: Graphical User Interface for automatic extraction and verification of document based on RBI guidilines. Also the conversion of unstructured data to structured format takes place which is furthered stored in excel format  
-  <br>
   ![GUI](./figures/gui.PNG)
   - Concurrent Audit Automation: This notebook contains all the functions, algorithms and implementation of prototype with a detailed description
 * <b>toolbox.py</b>: Contains all the functions and algorithms used in the prototype.
