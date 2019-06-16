@@ -6,7 +6,7 @@ On a daily basis, foreign exchange (FX) transactions data is monitored for compl
 On an average, transaction testers have to manually review:
 1250-1500 underlying documents with 12-15 attributes in each underlying document resulting in physical verification of 15000-22500 data points.
 
-<b>AIM</b><br>
+<b>AIM:</b><br>
 Develop an automated solution that can perform confirmation of Fx deals and the underlying documentation in various formats as per the RBI guideline.
 <br>
 Accurately scan unstructured data in Fx Deal ticket and underlying documentation and convert into structured data to transaction testing.
