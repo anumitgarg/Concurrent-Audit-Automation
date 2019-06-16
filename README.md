@@ -17,7 +17,7 @@ Therefore we have developed a transaction testing solution that can automate man
 We have used state of the art machine learning algorithms, natural language processing techniques and self developed algorithms that can automate the process of verification of documents and simultaneously creating an assessment report that summarizes the faults and anomalies encountered while verification.<br><br>
 1.) <b>EXTRACTION OF TEXT:</b> The Optical Character Recognition (OCR) using Google’s Cloud Vision API is used to extract handwritten, printed or any other form of data from the PDFs.<br> 
 
-2.) <b>ATTRIBUTE EXTRACTION:</b> The text thus obtained is thus processed and various attributes  are extracted using important features associated with each attribute using various algorithms consisting of Natural Language Processing techniques and regular expressions.<br>
+2.) <b>ATTRIBUTE EXTRACTION:</b> The text thus obtained is thus processed and various attributes  are extracted using important features (such as neighbouring characters, locaation in the document common format etc) associated with each attribute using our designed algorithms and regular expressions.<br>
 
 3.) <b>CONVERSION OF ATTRIBUTES TO PARTICULAR FORMATS</b> (unstructured data to structured data)<br>
 
@@ -25,7 +25,7 @@ We have used state of the art machine learning algorithms, natural language proc
 
 5.) <b>COMPARISON AND VERIFICATION:</b> Once all the data is extracted they are compared to the extracted attributes under the RBI guidelines.<br>
 
-6.) <b>RESULT REPORT GENERATED:</b> A message is prompted that gives a summary report of the result of verification process
+6.) <b>GENERATION OF ASSESSMENT REPORT:</b> A message is prompted that gives a summary report of the result of verification process
 
 
 ![Flow diagram](./figures/Flow_diagram.PNG)
