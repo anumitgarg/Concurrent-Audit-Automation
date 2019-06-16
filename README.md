@@ -40,6 +40,7 @@ We have used state of the art machine learning algorithms, natural language proc
   * Is capable of processing invoice in large number of formats
   * Is cheaper and easy on deploy on any system.
 <br>
+
 ## Libraries and dependencies
 The proposed solution has been implemented using Python 3.7.1 and the following dependencies - 
 * <b>Google Cloud Vision API </b> is an image analysis service that's part of Google Cloud Platform. It enables you to understand the content of images by encapsulating powerful machine learning models in an easy-to-use REST API. 
