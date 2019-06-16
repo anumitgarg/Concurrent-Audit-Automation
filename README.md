@@ -25,6 +25,21 @@ We have used state of the art machine learning algorithms, natural language proc
 ![Flow diagram](./figures/Flow_diagram.PNG)
 
 
+<br><br>
+## Why our solution?
+###<b>Benefits of our solution<b>
+  * Our solution is robust enough to read PDFs that are in all orientations and different forms of handwritten texts.
+
+  * The software would also generate an assessment report for each scanned document thus intimating the authorities about the reason of failure in verification and other possible glitches.
+
+  * Is capable of processing invoice in more than 50 languages (Cloud Vision API support more than 50 languages)
+
+  * Is capable of processing invoice in large number of formats
+
+  * Is cheaper and easy on deploy on any system.
+
+
+
 
 ## Libraries and dependencies
 The proposed solution has been implemented using Python 3.7.1 and the following dependencies - 
