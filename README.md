@@ -46,5 +46,6 @@ The repository consists of following files folders -
 * <b>toolbox.py</b>: Contains all the functions and algorithms used in the prototype.
 * <b>Dataset</b>: Contains sample document and processed document.
 <br><br>
+
 <b>NOTE:</b> The dekstop application requires access to Google Cloud Vision API and a credential key, for security reasins the key has not been shared along with the code. To generate a free GCP account and try out the code visit: [Google Cloud PLatform](https://cloud.google.com/vision/docs/quickstart-client-libraries#client-libraries-install-python)
 
